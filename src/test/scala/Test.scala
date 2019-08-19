@@ -1,12 +1,9 @@
-import org.junit.runner.RunWith
-import org.scalatest.FunSuite
-import org.scalatest.junit.JUnitRunner
-import part4.Fibs
+import org.scalatest.FlatSpec
+import org.sementsov.stepic.scala.part4.Fibs
 
-@RunWith(classOf[JUnitRunner])
-class Test extends FunSuite {
+class Test extends FlatSpec {
 
-  test("getFibonacci") {
+  "fibs" should "return correct results" in {
     assert(Fibs.fibs(0) === 0)
     assert(Fibs.fibs(1) === 1)
     assert(Fibs.fibs(2) === 1)

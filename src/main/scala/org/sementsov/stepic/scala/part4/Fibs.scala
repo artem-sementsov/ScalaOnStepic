@@ -1,4 +1,4 @@
-package part4
+package org.sementsov.stepic.scala.part4
 import scala.annotation.tailrec
 
 object Fibs extends App{

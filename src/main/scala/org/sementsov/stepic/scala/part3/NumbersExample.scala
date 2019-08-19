@@ -1,4 +1,4 @@
-package part3
+package org.sementsov.stepic.scala.part3
 
 import scala.math.BigDecimal.RoundingMode.HALF_UP
 

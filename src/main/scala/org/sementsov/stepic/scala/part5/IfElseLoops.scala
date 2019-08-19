@@ -1,4 +1,4 @@
-package part5
+package org.sementsov.stepic.scala.part5
 
 import scala.io.StdIn
 

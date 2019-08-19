@@ -1,4 +1,4 @@
-package part4
+package org.sementsov.stepic.scala.part4
 
 object Middle extends App{
   def middle[T](data: Iterable[T]) = {
